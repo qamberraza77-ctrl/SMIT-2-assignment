@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+<body style="background-color:#81c0ca; font-family:Georgia, serif;">
+
+    <h1 align="center">Student Registration Form</h1>
+
+    <form align="center">
+
+        <p>
+            Roll no :
+            <input type="text" name="rollno" size="50"required>
+        </p>
+
+        <p>
+            Student name :
+            <input type="text" name="fname" placeholder="First Name"required>
+            -
+            <input type="text" name="lname" placeholder="Last Name"required>
+        </p>
+
+        <p>
+            Father's name :
+            <input type="text" name="fathername" size="50"required>
+        </p>
+
+       <p>
+            Date of birth :
+            <input type="text" placeholder="Day" size="5"required>
+            -
+            <input type="text" placeholder="Month" size="5"required>
+            -
+            <input type="text" placeholder="Year" size="8"required>
+            (DD-MM-YYYY)
+        </p>
+        <p>
+            Mobile no :
+            <input type="text" value="+92" size="3" readonly>
+            -
+            <input type="text" name="mobile" size="30"required>
+        </p>
+
+        <p>
+            Email id :
+            <input type="email" name="email" size="50"required>
+        </p>
+
+        <p>
+            Password :
+            <input type="password" name="password" size="50"required>
+        </p>
+
+        <p>
+            Gender :
+            <input type="radio" name="gender"required> Male
+            <input type="radio" name="gender"required> Female
+        </p>
+
+        <p>
+            Department :
+            <input type="checkbox"> IT
+            <input type="checkbox"> ART
+            <input type="checkbox"> SCI
+            <input type="checkbox"> COM
+            <input type="checkbox"> LAW
+        </p>
+
+        <p>
+            Course :
+            <select>
+                <option>---------------- Select Current Course's ----------------</option>
+                <option>BSCS</option>
+                <option>BA</option>
+                <option>BSC</option>
+                <option>BCOM</option>
+                <option>LLB</option>
+            </select>
+        </p>
+
+        <p>
+            Student photo :
+            <input type="file"required>
+        </p>
+
+        <p>
+            City :
+            <input type="text" name="city" size="50"required>
+        </p>
+
+        <p>
+            Address :
+            <br>
+            <textarea rows="4" cols="50"></textarea required>
+        </p>
+
+        <p>
+            <input type="submit" value="Register">
+        </p>
+
+    </form>
+
+</body>
+</html>
